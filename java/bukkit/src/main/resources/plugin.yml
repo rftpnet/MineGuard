@@ -1,0 +1,13 @@
+name: MineGuard
+main: org.mineguard.bukkit.MineGuardPlugin
+version: 0.1.0
+commands:
+  mineguard:
+    description: MineGuard reputation filter
+    usage: /mineguard <status|reload|update|stats>
+    permission: mineguard.admin
+    permission-message: You do not have permission to use this command.
+permissions:
+  mineguard.admin:
+    default: op
+folia-supported: true

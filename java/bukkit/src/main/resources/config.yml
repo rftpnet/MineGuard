@@ -1,0 +1,18 @@
+update:
+  enabled: true
+  interval_minutes: 60
+  retention: "30d"
+
+additional_local_file: "additional-ips-v4.txt"
+
+blocking:
+  enabled: true
+  kick_message: "Disconnected"
+
+show_ips_on_console: true
+
+allowlist:
+  - "127.0.0.1"
+  - "10.0.0.0/8"
+  - "172.16.0.0/12"
+  - "192.168.0.0/16"
